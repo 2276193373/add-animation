@@ -18,6 +18,9 @@ export function addAnimation(selectors, startAnimationClass, endAnimationClass, 
     })
   })
   const elements = document.querySelectorAll(selectors)
+  if (!elements.length) {
+    console.error('addAnimation function: 所获取的 elements 为空, 请检查所传的选择器的名称是否正确或异步问题')
+  }
   elements.forEach(el => {
     el.classList.add(...[startAnimationClass].flat())
     io.observe(el)
