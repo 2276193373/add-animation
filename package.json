@@ -7,6 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2276193373/add-animation.git"
+  },
   "author": "",
   "license": "ISC"
 }
