@@ -20,7 +20,7 @@ addAnimation('#container', 'fade-in-up', 'exe-animation')
 ```
 ## 说明
 
-示例中, 当 `#container` 元素出现在视口中时, 会添加 `exe-animation` 到 `class` 列表中, 你可以在 `.fade-in-up` 和 `.exe-animation` 编写过度动画属性
+示例中, 当函数开始执行时, `.fade-in-up` 类名会添加到目标元素的 `class` 中, 然后当目标元素出现在视口中时, 会添加 `exe-animation` 类名到 `class` 列表中, 你可以在 `.fade-in-up` 和 `.exe-animation` 编写过度动画属性
 
 ## 参数
 * `selectors` - 选择器名称
