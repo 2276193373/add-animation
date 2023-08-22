@@ -1,0 +1,11 @@
+{
+  "name": "add-animation",
+  "version": "1.0.0",
+  "description": "元素出现在视口中时, 为元素添加一个或多个类名,通常用于添加动画",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
