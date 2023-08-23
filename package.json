@@ -1,9 +1,12 @@
 {
   "name": "appear-add-animation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "元素出现在视口中时, 为元素添加一个或多个类名,通常用于添加动画",
   "main": "index.js",
-  "keywords": ["元素出现在视口时添加类名", "IntersectionObserver"],
+  "keywords": [
+    "元素出现在视口时添加类名",
+    "IntersectionObserver"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
