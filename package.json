@@ -1,6 +1,6 @@
 {
   "name": "appear-add-animation",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "元素出现在视口中时, 为元素添加一个或多个类名,通常用于添加动画",
   "main": "index.js",
   "keywords": [
