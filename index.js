@@ -9,6 +9,9 @@
  */
 
 export function addAnimation(selectors, startAnimationClass, endAnimationClass, options, unobserve = true) {
+  if (!startAnimationClass || !endAnimationClass) {
+    throw new Error('startAnimationClass 或 endAnimationClass 不能为空')
+  }
   const isOptions = 
     Object.prototype.toString.call(options) === '[object Object]' ||
     Object.prototype.toString.call(options) === '[object Undefined]' ||
